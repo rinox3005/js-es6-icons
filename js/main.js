@@ -132,7 +132,6 @@ function swapIcons(filter) {
         const h3 = document.createElement("h3");
 
         switch (filter) {
-
             case "all":
                 div.classList.add("card");
                 i.classList.add(`${element.family}`);

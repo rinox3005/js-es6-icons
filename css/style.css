@@ -23,7 +23,8 @@ body {
     border-radius: 15px;
     text-align: center;
     padding: 20px;
-    border: 1px solid black;
+    border: 1px solid rgba(117, 113, 113, 0.705);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.288);
 }
 
 .card i {
@@ -33,4 +34,27 @@ body {
 
 #container h3 {
     text-transform: uppercase;
+}
+
+header {
+    padding: 20px 10px;
+    background-color: white;
+}
+
+header h1 {
+    color: #29b1dd;
+    font-size: 45px;
+}
+
+#container {
+    display: flex;
+    background-color: #29b1dd;
+    color: white;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+#container select {
+    font-size: 15px;
+    margin-left: 20px;
 }
