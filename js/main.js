@@ -118,6 +118,7 @@ const icons = [
 console.log(icons);
 
 const filteredIcons = document.getElementById("filtered-icons");
+const filter = document.getElementById("filter");
 
 icons.forEach((element) => {
     const div = document.createElement("div");
