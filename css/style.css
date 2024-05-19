@@ -6,9 +6,13 @@
     box-sizing: border-box;
 }
 
+/* FONT */
+
 body {
     font-family: 'Rubik', sans-serif;
 }
+
+/* LAYOUT */
 
 #filtered-icons {
     margin: 30px auto;
@@ -16,6 +20,12 @@ body {
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
+}
+
+#filtered-icons h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-style: oblique;
 }
 
 .card {
@@ -28,7 +38,7 @@ body {
 }
 
 .card i {
-    font-size: 30px;
+    font-size: 35px;
     padding-bottom: 20px;
 }
 
