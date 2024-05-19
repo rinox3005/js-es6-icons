@@ -9,3 +9,24 @@
 body {
     font-family: 'Rubik', sans-serif;
 }
+
+#filtered-icons {
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.card i {
+    font-size: 30px;
+    padding-bottom: 20px;
+}

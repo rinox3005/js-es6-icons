@@ -123,7 +123,7 @@ icons.forEach((element) => {
     const div = document.createElement("div");
     const i = document.createElement("i");
     const h3 = document.createElement("h3");
-    div.classList.add("col");
+    div.classList.add("card");
     i.classList.add(`${element.family}`);
     i.classList.add(`${element.prefix}${element.name}`);
     h3.innerText = element.name;
