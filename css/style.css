@@ -1,70 +1,72 @@
 /* RESET */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* FONT */
 
 body {
-    font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
+  background-color: #dddddd;
 }
 
 /* LAYOUT */
 
 #filtered-icons {
-    margin: 30px auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    justify-content: center;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
 }
 
 #filtered-icons h3 {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-style: oblique;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-style: oblique;
 }
 
 .card {
-    width: 200px;
-    border-radius: 15px;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid rgba(117, 113, 113, 0.705);
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.288);
+  width: 200px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid rgba(204, 199, 199, 0.705);
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.288);
 }
 
 .card i {
-    font-size: 35px;
-    padding-bottom: 20px;
+  font-size: 35px;
+  padding-bottom: 20px;
 }
 
 #container h3 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 header {
-    padding: 20px 10px;
-    background-color: white;
+  padding: 20px 10px;
+  background-color: white;
 }
 
 header h1 {
-    color: #29b1dd;
-    font-size: 45px;
+  color: #29b1dd;
+  font-size: 45px;
 }
 
 #container {
-    display: flex;
-    background-color: #29b1dd;
-    color: white;
-    justify-content: center;
-    padding: 30px 0;
+  display: flex;
+  background-color: #29b1dd;
+  color: white;
+  justify-content: center;
+  padding: 30px 0;
 }
 
 #container select {
-    font-size: 15px;
-    margin-left: 20px;
+  font-size: 15px;
+  margin-left: 20px;
 }
