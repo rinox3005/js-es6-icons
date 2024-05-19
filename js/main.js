@@ -116,3 +116,18 @@ const icons = [
 ];
 
 console.log(icons);
+
+const filteredIcons = document.getElementById("filtered-icons");
+
+icons.forEach((element) => {
+    const div = document.createElement("div");
+    const i = document.createElement("i");
+    const h3 = document.createElement("h3");
+    div.classList.add("col");
+    i.classList.add(`${element.family}`);
+    i.classList.add(`${element.prefix}${element.name}`);
+    h3.innerText = element.name;
+    div.appendChild(i);
+    div.appendChild(h3);
+    filteredIcons.appendChild(div);
+});
