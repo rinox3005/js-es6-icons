@@ -124,7 +124,7 @@ const filter = document.getElementById("filter");
 
 
 function swapIcons(filter) {
-
+    filteredIcons.innerHTML = "";
     icons.forEach((element) => {
 
         const div = document.createElement("div");
