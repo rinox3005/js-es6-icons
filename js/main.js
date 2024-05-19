@@ -126,6 +126,7 @@ icons.forEach((element) => {
     div.classList.add("card");
     i.classList.add(`${element.family}`);
     i.classList.add(`${element.prefix}${element.name}`);
+    i.style.color = element.color;
     h3.innerText = element.name;
     div.appendChild(i);
     div.appendChild(h3);
